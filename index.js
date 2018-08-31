@@ -25,7 +25,7 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-
+console.log("some new branch1");
 require('./routes/authRoutes')(app);
 require('./routes/blogRoutes')(app);
 
